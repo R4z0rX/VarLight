@@ -322,9 +322,9 @@ public class VarLightPlugin extends JavaPlugin implements Listener {
                 break;
         }
 
-        if (player.getGameMode() == GameMode.CREATIVE) {
+        //if (player.getGameMode() == GameMode.CREATIVE) {
             mod *= stepSizes.getOrDefault(player.getUniqueId(), 1);
-        }
+        //}
 
         final boolean creative = player.getGameMode() == GameMode.CREATIVE;
 
